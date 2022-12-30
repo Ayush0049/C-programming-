@@ -1,21 +1,19 @@
+//character is vowel or consonant
 #include<stdio.h>
 
 int main ()
-
 {
-   char c;
-   printf("entre the alphabet ");
-   scanf("%c",&c);
+   char ch;
+   printf("Enter the alphabet: ");
+   scanf("%c",&ch);
 
-   if(c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' || c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U')
+   if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U')// a,e,i,o,u are vowels other all are consonants
+      
    {
-    printf("the given character is vowel");
+    printf("character is vowel\n");
    }
     else{
-        printf("the given character is consonent");
+        printf("character is consonant\n");
     }
-
-
-    return 0;
-
+return 0;
 }
